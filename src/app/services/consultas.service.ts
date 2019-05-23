@@ -13,6 +13,6 @@ export class ConsultasService {
     return this.http.get<Photos[]>('https://jsonplaceholder.typicode.com/photos?_limit=5')
   }
   getUsuarios(){
-    return this.http.get('http://localhost:3000/usuarios')
+    return this.http.get('https://sidipro.herokuapp.com/usuarios')
   }
 }
