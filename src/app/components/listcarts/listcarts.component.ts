@@ -19,10 +19,10 @@ list:Photos[]
     },err=>{
       console.log(err)
     })
-    /*this.fotos.getUsuarios()
+    this.fotos.getUsuarios()
     .subscribe(data=>{
       console.log(data)
-    })*/
+    })
   }
 
 }
